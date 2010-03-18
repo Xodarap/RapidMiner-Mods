@@ -1,0 +1,7 @@
+<operators>
+	 <operator
+	   name        = "MyTTest"
+	   class       = "MyTTest"
+	   description = "test"
+	   group       = "MyOps"/>
+</operators>
