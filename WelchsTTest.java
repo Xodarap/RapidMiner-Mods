@@ -66,8 +66,6 @@ public class WelchsTTest extends Operator{
     	//Figure out which example is the "has nominal attribute" one and which one lacks it
     	Example lineOne = outputSet.getExample(0);
     	Example lineTwo = outputSet.getExample(1);
-    	Example withGroup = (lineOne.getNominalValue(groupAttribute).equals("true")) ? lineOne : lineTwo;
-    	Example withoutGroup = (lineOne.getNominalValue(groupAttribute).equals("false")) ? lineOne : lineTwo;
     	
     	//Create struct representation
     	StatisticsData withGroupStats = new StatisticsData(lineOne.getNumericalValue(avgAttribute), 
