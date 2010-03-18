@@ -1,3 +1,5 @@
+You should only need to download the jar; the other files are there just to simplify versioning.
+
 In order to use these add-ons you will have to add them to the class path. The easiest way to do this is to edit your RapidMinerGUI script in your <rapid miner director>/scripts. It's called RapidMinerGUI.bat in windows.
 
 Find the section like this:
