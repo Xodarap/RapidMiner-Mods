@@ -1,7 +1,7 @@
 <operators>
 	 <operator
-	   name        = "MyTTest"
-	   class       = "MyTTest"
-	   description = "test"
-	   group       = "MyOps"/>
+	   name        = "Welch's T-Test"
+	   class       = "WelchsTTest"
+	   description = "Welch's T-Test"
+	   group       = "Hypothesis Testing"/>
 </operators>
