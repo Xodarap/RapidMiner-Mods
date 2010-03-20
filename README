@@ -1,4 +1,6 @@
-You should only need to download the jar; the other files are there just to simplify versioning.
+You should only need to download the jar; the other files are there just to simplify versioning. 
+
+You will also need to download the apache commons math package and put it in your classpath: http://commons.apache.org/math/
 
 In order to use these add-ons you will have to add them to the class path. The easiest way to do this is to edit your RapidMinerGUI script in your <rapid miner director>/scripts. It's called RapidMinerGUI.bat in windows.
 
@@ -15,7 +17,7 @@ where the path is where you've saved operators.xml
 
 Next, add the jar to the class path:
 
-CLASSPATH=${RAPIDMINER_CLASSPATH}:${CLASSPATH}:/path/to/RMTTest.jar
+CLASSPATH=${RAPIDMINER_CLASSPATH}:${CLASSPATH}:/path/to/RMTTest.jar:/path/to/apache/math.jar
 
 You should now see a new category called "Hypothesis Testing" with the TTest operator in it.
 
